@@ -5,6 +5,7 @@ const cleanCSS = require('gulp-clean-css');
 const autoprefixer = require('gulp-autoprefixer');
 const rename = require("gulp-rename");
 
+
 gulp.task('server', function() {
 
     browserSync({
@@ -27,7 +28,8 @@ gulp.task('styles', function() {
 });
 
 gulp.task('watch', function() {
-    gulp.watch("src/sass/**/*.+(scss|sass)", gulp.parallel('styles'));
-})
+    gulp.watch("src/sass/**/*.+(scss|sass|css)", gulp.parallel('styles'));
+});
+
 
 gulp.task('default', gulp.parallel('watch', 'server', 'styles'));

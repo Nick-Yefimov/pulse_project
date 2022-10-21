@@ -1,0 +1,239 @@
+@media (max-width: 991px) {
+    .carousel {
+        &__inner {
+            max-width: 600px;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+@media (max-width: 575px) {
+    .header {
+        &__logo {
+            max-width: 90px;
+        }
+        &__oficial {
+            font-size: 8px;
+            span  {
+                font-size: 9px;
+            }
+        }
+        &__phone {
+            font-size: 10px;
+        }
+    }
+    .button {
+        font-size: 10px;
+        width: 101px;
+        height: 25px;
+        &_main {
+            font-size: 8px;
+        }
+        &_submit {
+            font-size: 8px;
+        }
+    }
+    .promo {
+        &__header {
+            font-size: 35px;
+            text-align: center;
+        }
+        &__subheader {
+            margin-top: 10px;
+            font-size: 22px;
+            text-align: center;
+        }
+        &__icons {
+            width: 305px;
+        }
+        &__icon {
+            font-size: 12px;
+            width: 150px;
+        }
+        &__link {
+            font-size: 12px;
+        }
+    }
+    .advantages {
+        &__icon {
+            width: 45px;
+        }
+        &__item {
+            max-width: 150px;
+        }
+        &__title {
+            font-size: 25px;
+        }
+        &__subtitle {
+            font-size: 7px;
+            margin-top: 15px;
+        }
+        &__descr {
+            font-size: 6px;
+            margin-top: 10px;
+        }
+    }
+    .title {
+        text-align: center;
+        &_left {
+            font-size: 25px;
+        }
+    }
+    .consulation {
+        padding: 65px 0 90px 0;
+        &__descr {
+            margin-top: 20px;
+            text-align: center;
+            line-height: 25px;
+            font-size: 15px;
+        }
+    }
+    .carousel {
+        &__inner {
+            max-width: 200px;
+            img {
+                width: 100%;
+            }
+        }
+        .slick-prev, .slick-next {
+            left: -66px; 
+            img {
+                width: 40px;
+                height: 30px;
+            }
+        }
+        .slick-next {
+            right: -66px;
+            left: auto;
+        }   
+    }
+    .catalog {
+        .title {
+            font-size: 20px;
+        }
+        &__tabs {
+            margin-top: 50px;
+        }
+        &__tab {
+            font-size: 9px;
+            width: 100px;
+        }
+        &__content {
+            justify-content: center;
+        }
+    }
+    .feed {
+        .title {
+            font-size: 22px;
+        }
+        img {
+            width: 100px;
+            height: 100px;
+        }
+        &__text {
+            padding-left: 30px;
+        }
+        &__subtitle {
+            font-size: 15px;
+        }
+        &__count {
+            font-size: 11px;
+        }
+        &__descr {
+            margin-top: 5px;
+            font-size: 12px;
+        }
+    }   
+    .footer {
+        img {
+            height: 20px;
+        }
+        &__info {
+            width: 350px;
+            height: 220px;
+        }
+        &__addr {
+            font-size: 16px;
+        }
+        &__phone {
+            font-size: 18px;
+        }
+        &__social-item {
+            width: 35px;
+            height: 35px;
+        }
+    } 
+    .pageup {
+        img {
+            width: 28px;
+        }
+    }
+    .model {
+        width: 280px;
+        min-height: 140px;
+        &__subtitle {
+            font-size: 14px;
+        }
+        &__descr {
+            font-size: 12px;
+        }
+        &__close {
+            top: 15px;
+            font-size: 30px;
+        }
+        label.error {
+            text-align: center;
+            font-size: 10px;
+        }
+    }
+    .feed-form {
+        width: 200px;
+        input {
+            margin-bottom: 5px;
+            height: 40px;
+            font-size: 12px;
+        }
+    }
+}
+@media (max-width: 320px) {
+    .catalog {
+        &__tab {
+            font-size: 8px;
+            width: 85px;
+        }
+    }
+    .footer {
+        img {
+            width: 20px;
+            height: 14px;
+        }
+        &__info {
+            width: 250px;
+        }
+        &__addr {
+            font-size: 14px;
+        }
+        &__phone {
+            font-size: 12px;
+            margin-bottom: 20px;
+        }
+        &__social-item {
+            width: 30px;
+            height: 30px;
+            margin-bottom: 20px;
+        }
+    }
+    .pageup {
+        right: 18px;
+        img {
+            width: 20px;
+        }
+    }
+    .model {
+        &__close {
+            right: -20px;
+            font-size: 22px;
+        }
+    }
+}
